@@ -9,3 +9,8 @@ print(a[::2])
 print(a[1::2])
 print(a[::-1])
 print('My name is {a} {b} {c}'.format(a='Don', b='Chucho', c='Salamanca'))
+print('My initials are {b}{c}'.format(a='Don', b='Chucho'[0], c='Salamanca'[0]))
+r = 100/7
+s = '14'
+print('100 divided by 7 is {a:1.4f}'.format(a=r))
+# print(f'100 divided by 7 is about {r}') 3.6? f string works in notebook, not on my machine though
