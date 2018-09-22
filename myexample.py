@@ -23,3 +23,5 @@ print(new_list)
 team = {'striker': 'Kane', 'midfielders': ['Alli', 'Eriksen'], 'defenders': ['Trippier', 'Vertonghen']}
 print(team.values())
 print('The best players are {} and {}'.format(team['striker'], team['midfielders'][1]))
+tuple = ('one', 2, 2, 2, 3.01)
+print(tuple.count(2))
