@@ -18,5 +18,8 @@ my_list = [1,2,3,4,5]
 another_list = [6,7,8,9,10]
 new_list = my_list + another_list
 new_list.append(11)
-new_list.pop()
+new_list.pop(-1)
 print(new_list)
+team = {'striker': 'Kane', 'midfielders': ['Alli', 'Eriksen'], 'defenders': ['Trippier', 'Vertonghen']}
+print(team.values())
+print('The best players are {} and {}'.format(team['striker'], team['midfielders'][1]))
