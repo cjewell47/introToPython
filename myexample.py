@@ -14,3 +14,9 @@ r = 100/7
 s = '14'
 print('100 divided by 7 is {a:1.4f}'.format(a=r))
 # print(f'100 divided by 7 is about {r}') 3.6? f string works in notebook, not on my machine though
+my_list = [1,2,3,4,5]
+another_list = [6,7,8,9,10]
+new_list = my_list + another_list
+new_list.append(11)
+new_list.pop()
+print(new_list)
